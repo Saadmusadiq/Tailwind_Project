@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<RootNamespace>Tailwind_Project</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Remove="Views\Components\_Chart-04.cshtml" />
+	  <Content Remove="Views\Shared\Partials\Headertwo.cshtml" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="wwwroot\Assets\" />
+		<Folder Include="wwwroot\Images\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="Views\Components\_Chart-04.cshtml" />
+	  <None Include="Views\Components\_Chart-01.cshtml" />
+	</ItemGroup>
+	
+
+
+</Project>
