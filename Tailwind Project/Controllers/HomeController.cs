@@ -11,13 +11,23 @@ namespace Tailwind_Project.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-        }
+        }   
 
         public IActionResult Index()
         {
             return View("Partials/Dashboard");
+
             
         }
+        public IActionResult Calender()
+        {
+            return View();
+        }
+        public IActionResult Profile()
+        {
+            return View();  
+        }
+
 
         public IActionResult Privacy()
         {
